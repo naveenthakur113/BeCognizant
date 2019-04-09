@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Video Play/Pause on the home page",
+        "description": "",
+        "id": "video-component-verification;verify-video-play/pause-on-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2437886808,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter url \"https://www.thomsonreuters.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.thomsonreuters.in\"",
+                  "offset": 10
+                }
+              ],
+              "location": "VideoComponent.enter_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43364063,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Scroll to the Video component",
+            "match": {
+              "location": "VideoComponent.scroll_to_the_Video_component()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4879076581,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Play",
+            "match": {
+              "location": "VideoComponent.click_on_Play()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24462,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify if the video is playing",
+            "match": {
+              "location": "VideoComponent.verify_if_the_video_is_playing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Video component verification",
+    "description": "",
+    "id": "video-component-verification",
+    "keyword": "Feature",
+    "uri": "file:features/login/VideoComponent.feature",
+    "tags": []
+  }
+]
