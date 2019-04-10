@@ -9,7 +9,7 @@ import com.cognizant.be.utils.Driver;
 public class BasePage {
 	
 	
-	private WebDriverWait wait= new WebDriverWait(Driver.getDriver(), 1000);
+	private WebDriverWait wait= new WebDriverWait(Driver.getDriver(), 30);
 	
 	public WebElement waitForVisibilityOfElement(WebElement element) {
 		return wait.until(ExpectedConditions.visibilityOf(element));
