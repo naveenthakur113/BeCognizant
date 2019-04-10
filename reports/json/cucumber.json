@@ -3,75 +3,93 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "Verify Video Play/Pause on the home page",
+        "line": 12,
+        "name": "Login with valid cognizant email address",
         "description": "",
-        "id": "video-component-verification;verify-video-play/pause-on-the-home-page",
+        "id": "this-feature-will-test-the-login-functionality;login-with-valid-cognizant-email-address;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2437886808,
+              "duration": 29583937,
               "status": "passed"
             },
-            "line": 4,
-            "name": "Enter url \"https://www.thomsonreuters.in\"",
+            "line": 5,
+            "name": "Open browser",
+            "match": {
+              "location": "Login.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3115451482,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the url \"https://be.cognizant.com/\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"https://www.thomsonreuters.in\"",
-                  "offset": 10
+                  "val": "\"https://be.cognizant.com/\"",
+                  "offset": 14
                 }
               ],
-              "location": "VideoComponent.enter_url(String)"
+              "location": "Login.enter_the_url(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 43364063,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Scroll to the Video component",
-            "match": {
-              "location": "VideoComponent.scroll_to_the_Video_component()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4879076581,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Click on Play",
-            "match": {
-              "location": "VideoComponent.click_on_Play()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 24462,
+              "duration": 203666262,
               "status": "passed"
             },
             "line": 7,
-            "name": "verify if the video is playing",
+            "name": "Enter a valid Cognizant Email address \"ThakurNaveenKishore.Singh@cognizant.com\"",
             "match": {
-              "location": "VideoComponent.verify_if_the_video_is_playing()"
+              "arguments": [
+                {
+                  "val": "\"ThakurNaveenKishore.Singh@cognizant.com\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Login.enter_a_valid_Cognizant_Email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69800979,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Next",
+            "match": {
+              "location": "Login.click_on_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29363298806,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Land to Sign-In with id password page",
+            "match": {
+              "location": "Login.land_to_Sign_In_with_id_password_page()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Video component verification",
+    "name": "This feature will test the login functionality",
     "description": "",
-    "id": "video-component-verification",
+    "id": "this-feature-will-test-the-login-functionality",
     "keyword": "Feature",
-    "uri": "file:features/login/VideoComponent.feature",
+    "uri": "file:features/login/login.feature",
     "tags": []
   }
 ]

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.363799">
-<testcase classname="Video component verification" name="Verify Video Play/Pause on the home page" time="7.363799">
-<system-out><![CDATA[When Enter url "https://www.thomsonreuters.in"..............................passed
-And Scroll to the Video component...........................................passed
-And Click on Play...........................................................passed
-Then verify if the video is playing.........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.784234">
+<testcase classname="This feature will test the login functionality" name="Login with valid cognizant email address" time="32.784234">
+<system-out><![CDATA[Given Open browser..........................................................passed
+When Enter the url "https://be.cognizant.com/"..............................passed
+And Enter a valid Cognizant Email address "ThakurNaveenKishore.Singh@cognizant.com".passed
+And Click on Next...........................................................passed
+Then Land to Sign-In with id password page..................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,6 +1,6 @@
 Feature: This feature will test the login functionality 
 
-@ignore
+
 Scenario Outline: Login with valid cognizant email address 
 	Given Open browser 
 	When Enter the url "https://be.cognizant.com/" 

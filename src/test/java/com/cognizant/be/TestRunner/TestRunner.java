@@ -36,7 +36,7 @@ public class TestRunner {
 	@AfterClass
 	public static void tearDown() {
 		System.out.println("Tear down method of junit runner");
-		//Driver.getDriver().quit();
+		Driver.getDriver().quit();
 	}
 	
 }
