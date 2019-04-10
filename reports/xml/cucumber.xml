@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.024557">
-<testcase classname="This feature will test the login functionality" name="Login with valid cognizant email address" time="11.024557">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.719849">
+<testcase classname="This feature will test the login functionality" name="Login with valid cognizant email address" time="11.719849">
 <system-out><![CDATA[Given Open browser..........................................................passed
 When Enter the url "https://be.cognizant.com/"..............................passed
 And Enter a valid Cognizant Email address "ThakurNaveenKishore.Singh@cognizant.com".passed

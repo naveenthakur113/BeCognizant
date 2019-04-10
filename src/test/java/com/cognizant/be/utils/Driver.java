@@ -8,7 +8,7 @@ public class Driver {
 	public static WebDriver driver;
 	public static void initializeDriver(String browserType) {
 	
-		switch (browserType.toLowerCase()) {
+		/*switch (browserType.toLowerCase()) {
 		case "chrome":
 		default:
 			System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Files\\chromedriver_win32\\chromedriver.exe");			
@@ -16,10 +16,13 @@ public class Driver {
 			break;
 
 		
+		}*/
+		
+		
+		if(browserType.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Files\\chromedriver_win32\\chromedriver.exe");			
+			driver = new ChromeDriver();
 		}
-		
-		
-		
 		
 	}
 	public static WebDriver getDriver() {
